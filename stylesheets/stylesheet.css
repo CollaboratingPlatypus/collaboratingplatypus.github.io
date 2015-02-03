@@ -92,14 +92,11 @@ header h2 {
 .inner {
   width: 620px;
   margin: 0 auto;
+  position: relative;
 }
 
 #container .inner img {
   max-width: 100%;
-}
-
-#downloads {
-  margin-bottom: 40px;
 }
 
 a.button {
@@ -150,6 +147,24 @@ a.button span {
   display: block;
   height: 23px;
   padding-left: 50px;
+}
+
+#downloads {
+  margin-bottom: 40px;
+}
+
+#downloads a.button {
+  float:left;
+}
+
+#logo {
+  position: absolute;
+  right: 15px;
+  top: 90px;
+}
+
+#logo img {
+  width: 150px;
 }
 
 #download-zip span {
