@@ -173,11 +173,23 @@ a.button span {
 #download-tar-gz span {
   background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
 }
+
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
 #view-on-github {
   margin-right: 0;
+}
+
+#view-on-bitbucket {
+  margin-right: 0;
+  margin-left: 10px;
+}
+#view-on-bitbucket span {
+  background: transparent url(../images/bitbucket-icon.png) 12px 50% no-repeat;
+}
+#view-on-bitbucket span {
+  padding-left: 45px;
 }
 
 code, pre {
@@ -324,6 +336,77 @@ ol li {
 dl dt {
   color: #303030;
 }
+
+/*
+a.profile-pic {
+  float: left;
+}
+*/
+
+a.profile-pic {
+  float: left;
+  padding: 7px 15px 25px 0;
+}
+
+a.profile-pic img, a.profile-pic span {
+  width: 75px;
+  display: inline-block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .9), 0 -1px 0 rgba(0, 0, 0, .6);
+  -moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .9), 0 -1px 0 rgba(0, 0, 0, .6);
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .9), 0 -1px 0 rgba(0, 0, 0, .6);
+}
+
+/* demo styling */
+body {
+  width: 800px;
+  margin: 30px auto;
+  font: normal 14px/150% Arial, Helvetica, sans-serif;
+}
+p {
+  margin: 0 0 10px;
+}
+h2, h3 {
+  margin: 0 0 5px;
+}
+hr {
+  margin: 30px 0;
+  background: #999;
+  height: 0;
+  padding: 0 0 1px;
+  border: none;
+}
+.demo {
+  margin: 40px 0;
+  padding: 20px;
+  background: #d7d7d7;
+  border: solid 1px #ccc;
+}
+.left {
+  float: left;
+  margin-right: 20px;
+}
+/* clearfix */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix {
+  zoom: 1;
+} /* IE6 */
+*:first-child+html .clearfix {
+  zoom: 1;
+} /* IE7 */
+
+
+}
+
 
 footer {
   padding-top: 20px;
