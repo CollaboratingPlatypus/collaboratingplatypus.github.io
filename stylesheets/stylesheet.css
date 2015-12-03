@@ -19,7 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	font: inherit;
 	font-size: 100%;
-	vertical-align: baseline;
+	/*vertical-align: baseline;*/
 	border: 0;
 }
 /* HTML5 display-role reset for older browsers */
@@ -382,6 +382,13 @@ a.profile-pic img, a.profile-pic span {
 #project-status td img {
   vertical-align: middle;
 }
+
+.gitter-chat { text-align: center; }
+.gitter-chat span {
+  vertical-align: super;
+  padding-right: 5px;
+}
+
 
 /* demo styling */
 body {
